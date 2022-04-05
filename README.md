@@ -31,3 +31,8 @@ MIPS-C3：LB、LBU、LH、LHU、LW、SB、SH、SW、ADD、ADDU、 SUB、 SUBU、
 - 将大部分信号重新命名。
 - 重写了CP0模块。
 - 重写了pipreg模块。
+
+## CPU_v0.2
+
+单发射五级流水线CPU，支持AXI访存接口，无Cache，可以通过龙芯杯AXI接口下的功能测试。
+
